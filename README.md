@@ -30,7 +30,7 @@ Finally, both approaches found Joe Biden to be the more favorable candidate, whi
 
 IMPORTANT: You need to import the .csv files and the notebooks into Azure Databricks and set up a cluster with at least one driver and one worker. The code is optimized to run under these conditions. If the code crashes or if you interrupt the code (This happens when you overload the cluster, it is not related with the code itself), be sure to disconnect from and reconnect to the cluster before re-running the entire notebook. The code has been split into several notebooks as the data is too big to be run at once and stored in memory altogether.
 
-IMPORTANT 2: Since GitHub doesn't allow handling of files larger than 100mb, the data has not been included bu can be found at: https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
+IMPORTANT 2: Since GitHub doesn't allow handling of files larger than 100mb, the data has not been included but can be found at: https://www.kaggle.com/datasets/manchunhui/us-election-2020-tweets
 
 1) First run the TwitterSentimentAnalysis_V1_TRUMP.ipynb file to get the cleaned data for Donald Trump's tweets.
 
